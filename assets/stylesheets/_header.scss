@@ -1,0 +1,44 @@
+.header-container {
+  img {
+    height: 300px;
+    width: 375px;
+  }
+
+  h2 {
+    width: auto;
+    color: white;
+    margin-top: -238px;
+    font-size: 22px;
+  }
+
+  .browser {
+    input[type=text] {
+      padding: 10px;
+      font-size: 17px;
+      border: 1px solid grey;
+      width: 258px;
+      background: #f1f1f1;
+    }
+
+    button[type=submit] {
+      width: 48px;
+      padding: 10px;
+      background: #2196F3;
+      color: white;
+      font-size: 17px;
+      border: 1px solid grey;
+      border-left: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #0b7dda;
+    }
+  }
+
+  p {
+    text-decoration: underline;
+    color: white;
+    font-size: 18px;
+  }
+}
